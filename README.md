@@ -66,6 +66,9 @@ order-service/
 ├── Dockerfile
 ├── go.mod
 └── README.md
+
+producer/
+└── main.go
 ```
 
 ---
