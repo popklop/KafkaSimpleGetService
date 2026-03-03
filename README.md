@@ -250,7 +250,8 @@ http://localhost:8081/
 3. Добавьте Prometheus (`http://prometheus:9090`)
 4. Импортируйте или создайте дашборд
 
-> <img width="989" height="806" alt="Screenshot From 2026-03-03 02-13-47" src="https://github.com/user-attachments/assets/5f274790-b90a-4641-80f5-35d864b020be" />
+<img width="989" height="806" alt="Screenshot From 2026-03-03 02-13-47" src="https://github.com/user-attachments/assets/854a23b4-bdc4-4e2e-8905-b8d589639ddc" />
+
 
 ---
 
@@ -265,7 +266,8 @@ http://localhost:8081/
 
 
 #### ERD / схема БД
-<img width="675" height="626" alt="Screenshot From 2026-03-03 11-29-20" src="https://github.com/user-attachments/assets/0874f36b-c300-47a3-8664-a11209ec2dfb" />
+<img width="675" height="626" alt="Screenshot From 2026-03-03 11-29-20" src="https://github.com/user-attachments/assets/b975b112-5672-4619-97f1-d22803f1e686" />
+
 ---
 
 ## Нагрузочное тестирование
@@ -284,7 +286,8 @@ cassowary run -u http://localhost:8081/order/order-new-1 -c 10 -n 100
 cassowary run -u http://localhost:8081 -c 5 -n 100 -f urls.txt
 ```
 Были проведены конкурентные запросы на 100 пользователей, 100 запросов, в ходе тестирования ошибок не выявлено.
-<img width="994" height="358" alt="image" src="https://github.com/user-attachments/assets/9486e7a4-15bb-4aac-9057-10d9a18cb406" />
+<img width="994" height="358" alt="Screenshot From 2026-03-03 11-48-12" src="https://github.com/user-attachments/assets/ea5cbbec-d703-4df0-aa02-a378c421feb5" />
+
 
 ## Ссылка на видеодемонстрацию
 https://youtu.be/DQSUvye7Rcw
