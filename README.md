@@ -285,8 +285,9 @@ cassowary run -u http://localhost:8081/order/order-new-1 -c 10 -n 100
 ```bash
 cassowary run -u http://localhost:8081 -c 5 -n 100 -f urls.txt
 ```
-Были проведены конкурентные запросы на 100 пользователей, 100 запросов, в ходе тестирования ошибок не выявлено.
-<img width="994" height="358" alt="Screenshot From 2026-03-03 11-48-12" src="https://github.com/user-attachments/assets/ea5cbbec-d703-4df0-aa02-a378c421feb5" />
+Были проведены конкурентные запросы на 100 пользователей, 1000 запросов, в ходе тестирования ошибок не выявлено.
+<img width="923" height="417" alt="image" src="https://github.com/user-attachments/assets/e65f0cb7-1e47-42d3-9274-3cea70305ac8" />
+
 
 
 ## Ссылка на видеодемонстрацию
