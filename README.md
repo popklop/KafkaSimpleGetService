@@ -62,7 +62,6 @@ order-service/
 │   │   └── web/
 │   └── usecase/
 ├── metrics/
-├── scripts/
 ├── docker-compose.yml
 ├── Dockerfile
 ├── go.mod
